@@ -1,0 +1,127 @@
+body {
+	background-color: #A7E2BC;
+}
+
+#main_container {
+	width: 100%;
+}
+
+h1{
+  font-family: helvetica;
+}
+
+#centered_container {
+	display: block;
+	opacity: 0.8;
+	background: #eeeeee;
+	margin: 0 auto;
+	width: 50%;
+	border: 2px solid black;
+	border-radius: 10px;
+	text-align: left;
+	padding: 10px 20px;
+	font-size: 26px;
+	color: #000000;
+	font-family: 'Oswald', sans-serif;
+}
+
+img {
+	width: 20px;
+	padding: 0px 10px;
+}
+
+.contacts{
+  font-size:20px;
+}
+
+/* Just click to select the code */
+ 
+/* Just click to select the code */
+ 
+@charset "UTF-8";
+ 
+@font-face {
+  font-family: "untitled-font-1";
+  src:url("fonts/untitled-font-1.eot");
+  src:url("fonts/untitled-font-1.eot?#iefix") format("embedded-opentype"),
+    url("fonts/untitled-font-1.ttf") format("truetype"),
+    url("fonts/untitled-font-1.svg#untitled-font-1") format("svg"),
+    url("fonts/untitled-font-1.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+ 
+[data-icon]:before {
+  font-family: "untitled-font-1" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+ 
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "untitled-font-1" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} 
+ 
+.icon-social-github:before {
+   content: "a"; 
+}
+
+/* Just click to select the code */
+ 
+@charset "UTF-8";
+ 
+@font-face {
+  font-family: "untitled-font-1";
+  src:url("fonts/untitled-font-1.eot");
+  src:url("fonts/untitled-font-1.eot?#iefix") format("embedded-opentype"),
+    url("fonts/untitled-font-1.ttf") format("truetype"),
+    url("fonts/untitled-font-1.svg#untitled-font-1") format("svg"),
+    url("fonts/untitled-font-1.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+ 
+[data-icon]:before {
+  font-family: "untitled-font-1" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+ 
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "untitled-font-1" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} 
+ 
+.icon-fontawesome-webfont:before {
+   content: "a"; 
+}
